@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+   background-color: black;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.omc-logo{
+    width: 100px;
+}
+.omc-logo img{
+    width: 100%;
+}
+
+nav li button{
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    background-color: lime;
+    color: white;
+}
+/* .hero-img{
+    width: 100%;
+}
+.hero-img img{
+    width: 100%;
+} */
+
+.hero-sec{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.hero-text{
+    width: 40%;
+}
+
+.hero-text h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.hero-text p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: italic;
+    color: gray;
+}
+.study-pic {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+   
+}
+.study-pic img{
+    width: 100%;
+     
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+}
+.school-info ul li{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.school-socials  p{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.school-socials ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
